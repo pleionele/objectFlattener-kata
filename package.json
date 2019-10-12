@@ -1,0 +1,15 @@
+{
+  "name": "objectflattener-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "mocha test.js --watch"
+  },
+  "devDependencies": {
+    "expect": "^24.9.0",
+    "mocha": "^6.2.1"
+  }
+}
