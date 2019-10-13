@@ -1,7 +1,5 @@
-const objFlattener = (obj, prefix, currentObj) => {
+const objFlattener = (obj, prefix = [], currentObj = {}) => {
     
-    prefix = prefix || [];
-    currentObj = currentObj || {};
     if (obj === null) {
         return {};
     }

@@ -21,7 +21,7 @@ describe("Object flattener", () => {
     it("should return empty object when is called with null", () => {
         expect(objFlattener(null)).toEqual({});
     });
-    it("should return empty object when is called with null", () => {
+    it("should return empty object when is called with one object which is null", () => {
         expect(objFlattener({test: null})).toEqual({});
     });
 });
